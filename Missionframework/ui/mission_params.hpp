@@ -34,7 +34,7 @@ class Params
 		title = $STR_PARAMS_CIVILIANS;
 		values[] = {0,1,2,3};
 		texts[] = {$STR_PARAMS_CIVILIANS1,$STR_PARAMS_CIVILIANS2,$STR_PARAMS_CIVILIANS3,$STR_PARAMS_CIVILIANS4};
-		default = 2;
+		default = 0;
 	};
 	class FirstFob {
 		title = $STR_PARAMS_FIRSTFOB;
@@ -88,7 +88,7 @@ class Params
 		title = $STR_PARAMS_RESOURCESMULTIPLIER;
 		values[] = { 0, 1, 2, 3, 4, 5, 6, 7 };
 		texts[] = { "x0.25", "x0.5", "x0.75", "x1", "x1.25","x1.5","x2","x3" };
-		default = 3;
+		default = 7;
 	};
 	class Spacer1 {
 		title = "";
@@ -108,7 +108,7 @@ class Params
 		isGlobal = 1;
 		values[] = {-100,0,1};
 		texts[] = {$STR_A3_MissionDefault, $STR_A3_Disabled, $STR_A3_EnabledForAllPlayers};
-		default = 1;
+		default = 0;
 		function = "bis_fnc_paramReviveMode";
 	};
 	class ReviveDuration
@@ -190,13 +190,13 @@ class Params
 		title = $STR_PARAMS_ACE_ENABLE;
 		values[] = { 0, 1 };
 		texts[] = { $STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED };
-		default = 0;
+		default = 1;
 	};
 	class Fatigue {
 		title = $STR_PARAMS_FATIGUE;
 		values[] = { 0, 1 };
 		texts[] = { $STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED };
-		default = 1;
+		default = 0;
 	};
 	class ArsenalUsePreset {
 		title = $STR_PARAMS_ARSENALUSEPRESET;
@@ -238,7 +238,7 @@ class Params
 		title = $STR_HALO_PARAM;
 		values[] = {1,5,10,15,20,30,0};
 		texts[] = { $STR_HALO_PARAM1, $STR_HALO_PARAM2, $STR_HALO_PARAM3, $STR_HALO_PARAM4, $STR_HALO_PARAM5, $STR_HALO_PARAM6, $STR_PARAMS_DISABLED };
-		default = 0;
+		default = 1;
 	};
 	class Spacer3 {
 		title = "";
@@ -274,7 +274,7 @@ class Params
 		title = $STR_PARAMS_DEPLOYMENTCAMERA;
 		values[] = { 1, 0 };
 		texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-		default = 1;
+		default = 0;
 	};
 	class Whitelist {
 		title = $STR_WHITELIST_PARAM;
