@@ -26,7 +26,7 @@ while { true } do {
 
 	_zeusunits = _zeusunits + switchableUnits;
 	_zeusunits = _zeusunits + playableUnits;
-	_zeusunits = _zeusunits - (curatorEditableObjects (allCurators select 0));
+
 
 	_units_to_remove = [];
 	{
@@ -38,13 +38,9 @@ while { true } do {
 	{
 		_zgm = _x;
 		_zgm addCuratorEditableObjects [_zeusunits,true];
-		_zgm removeCuratorEditableObjects [_units_to_remove,true];
 
-		_zgm  setCuratorCoef ["edit", -1e8];
-		_zgm  setCuratorCoef ["place", -1e8];
 		_zgm  setCuratorCoef ["synchronize", 0];
 		_zgm  setCuratorCoef ["delete", 0];
-		_zgm  setCuratorCoef ["destroy", -1e8];
 
 	} foreach allCurators;
 

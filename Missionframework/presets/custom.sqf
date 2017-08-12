@@ -91,7 +91,8 @@ light_vehicles = [
 	["B_Boat_Transport_01_F",100,0,25],									//Assault Boat
 	["B_Boat_Armed_01_minigun_F",200,80,75],							//Speedboat Minigun
 	["rhsusf_mkvsoc",250,200,100],										//Mk.V SOCOM
-	["B_SDV_01_F",150,0,50]												//SDV
+	["B_SDV_01_F",150,0,50],											//SDV
+	["rhs_9k79_B",150,1200,50]
 ];
 
 heavy_vehicles = [
@@ -158,7 +159,18 @@ air_vehicles = [
 	["B_Plane_Fighter_01_Stealth_F",1500,1750,450],						//F/A-181 Black Wasp II (Stealth)
 	["B_T_VTOL_01_armed_F",750,1500,500],								//V-44 X Blackfish (Armed)
 	["B_T_VTOL_01_infantry_F",750,0,500],								//V-44 X Blackfish (Infantry)
-	["B_T_VTOL_01_vehicle_F",750,0,500]									//V-44 X Blackfish (Vehicle)
+	["B_T_VTOL_01_vehicle_F",750,0,500],								//V-44 X Blackfish (Vehicle)
+	["USAF_AC130U",100,550,250],
+	["USAF_B1",100,750,250],
+	["usaf_b2",200,750,350],
+	["USAF_C17",100,0,150],
+	["USAF_C5",100,0,250],
+	["USAF_MC130",100,150,250],
+	["OPTRE_UNSC_hornet_CAS",200,100,100],
+	["OPTRE_Pelican_armed",200,100,100],
+	["OPTRE_UNSC_falcon",200,100,100],
+	["RHS_TU95MS_vvs_dubna",200,100,100],
+	["OPTRE_UNSC_hornet_CAS",200,100,100]
 ];
 
 static_vehicles = [
@@ -169,7 +181,8 @@ static_vehicles = [
 	["B_static_AT_F",50,100,0],											//Static TTitan Launcher (AT)
 	["B_static_AA_F",50,100,0],											//Static Titan Launcher (AA)
 	["B_Mortar_01_F",80,150,0],											//Mk6 Mortar
-	["RHS_M119_WD",100,200,0]											//M119A2
+	["RHS_M119_WD",100,200,0],											//M119A2
+	["USAF_MOABdisplay",0,150,0]
 ];
 
 buildings = [

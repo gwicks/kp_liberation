@@ -126,12 +126,6 @@ blacklisted_from_arsenal = [
 	"I_HMG_01_support_high_F",
 	"B_HMG_01_support_high_F",
 	"O_HMG_01_support_high_F",
-	"I_AA_01_weapon_F",
-	"B_AA_01_weapon_F",
-	"O_AA_01_weapon_F",
-	"I_AT_01_weapon_F",
-	"B_AT_01_weapon_F",
-	"O_AT_01_weapon_F",
 	"I_UAV_01_backpack_F",
 	"B_UAV_01_backpack_F",
 	"O_UAV_01_backpack_F",
@@ -160,10 +154,7 @@ blacklisted_from_arsenal = [
 	"RHS_NSV_Tripod_Bag",
 	"RHS_NSV_Gun_Bag",
 	"RHS_SPG9_Gun_Bag",
-	"RHS_SPG9_Tripod_Bag",
-	"optic_Nightstalker",
-	"optic_tws",
-	"optic_tws_mg"
+	"RHS_SPG9_Tripod_Bag"
 ];
 
 // Items which should be added as allowed Items, when they get blacklisted, even if they are not in the blacklisted_from_arsenal array
